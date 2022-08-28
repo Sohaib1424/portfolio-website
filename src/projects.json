@@ -1,0 +1,63 @@
+{
+    "TSP": {
+        "name": "TSP with Genetic Algorithms",
+        "link": "https://github.com/Sohaib1424/TSP-with-GA",
+        "show": false,
+        "demo": false,
+        "pic": "./TSP.png",
+        "description": ""
+    },
+
+    "LR":{
+        "name": "Linear Regression from scratch",
+        "link": "https://github.com/Sohaib1424/Linear-Regression-from-scratch",
+        "show": true,
+        "demo": false,
+        "pic": "./LR.png",
+        "description": ""
+    },
+    "SVM":{
+        "name": "SVM algorithm from scratch",
+        "link": "https://github.com/Sohaib1424/Support-Vector-Machine-from-scratch",
+        "show": false,
+        "demo": false,
+        "pic": "./SVM.png",
+        "description": ""
+    },
+
+    "NN": {
+        "name": "Neural Networks from scratch",
+        "link": "https://github.com/Sohaib1424/Neural-Networks-from-scratch",
+        "show": true,
+        "demo": false,
+        "pic": "./NN.png",
+        "description": ""
+    },
+
+    "CNN": {    
+        "name": "Convolutional NNs from scratch",
+        "link": "https://github.com/Sohaib1424/Convolutional-Neural-Networks-from-scratch-for-image-classification",
+        "show": true,
+        "demo": false,
+        "pic": "./CNN.png",
+        "description": ""
+    },
+
+    "Kaggle":{
+        "name": "Kaggle Data Science projects",
+        "link": "https://github.com/Sohaib1424/Data-Science-Kaggle",
+        "show": true,
+        "demo": false,
+        "pic": "./kaggle.png",
+        "description": ""
+    },
+    "RL":{
+        "name": "Reinforcement Learning projects",
+        "link": "https://github.com/Sohaib1424/Reinforcement-Learning-projects",
+        "show": true,
+        "demo": false,
+        "pic": "./RL.png",
+        "description": ""
+    }
+}
+

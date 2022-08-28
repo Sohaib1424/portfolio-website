@@ -1,0 +1,212 @@
+.section--page{
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+#wrapper--hero{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    align-self: center;
+}
+
+
+#creator{
+    font-size: 36px;
+    line-height: 1em;
+}
+
+#profile_pic{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    zoom: 1.2;
+}
+#bio, a{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+h1, h2, p{
+    color: aliceblue;
+}
+
+
+#wrapper--project{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+.projects--card {
+    
+    max-width: 230px;
+    max-height: 230px;
+    padding: 20px;
+    border: 2px solid #006dbb;
+    border-radius: 12px;
+  }
+
+  
+.projects--card h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    color:aliceblue;
+  }
+  
+.projects--card p {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  
+.projects--card img {
+    width: 180px;
+    height: 120px;
+    margin: 6px 0 0px;
+  
+    border-radius: 5px;
+  }
+  
+.projects--card .button {
+
+    margin-bottom: 6px;
+  }
+.projects--card a{
+    text-decoration: None;
+}
+
+#certificates{
+    list-style: none;
+    text-align: left;
+}
+#projects h2, #certificates h2, #skills h2, #tools h2{
+    font-size: 30px;
+    font-weight: 450;
+    text-align: left;
+}
+
+#certificates a{
+    color: aliceblue;
+    text-decoration: None;
+    
+}
+#certificates a:hover{
+    color:#c1a51c;
+    
+}
+
+#certificates li{
+    margin-bottom: 15px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+
+
+#wrapper--certificates{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+#wrapper--skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.skill--card{
+    border: 1px solid #006dbb;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
+}
+
+.skill--card :hover{
+    cursor: pointer;
+    color: #c1a51c;
+}
+
+
+#wrapper--tools{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.icons{
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+
+    color: azure;
+}
+
+.icons:hover{
+    cursor: pointer;
+    color: #c1a51c;
+}
+
+.button {
+    display: inline-block;
+    width:40px;
+
+    background: #136496;
+    color:#FFFFFF;
+    
+    padding: 15px 15px;
+    margin: 6px;
+    border: none;
+    border-radius: 9px;
+  
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-weight: 510;
+    text-decoration: none;
+  
+    cursor: pointer;
+  
+    transition: all 250ms ease;
+  }
+  
+  .button:hover {
+    background: #867005;
+  }
+
+@media(max-width:600px){
+    #wrapper--hero{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    #profile-pic{
+        width: 200px;
+        height: 200px;
+    }
+
+    #projects h2, #certificates h2, #skills h2, #tools h2{
+        font-size: 32px;
+        font-weight: 450;
+        text-align: center;
+    }
+
+}
