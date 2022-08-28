@@ -1,9 +1,9 @@
 import React from "react"
 
 const skills = ["Machine Learning", "Deep Learning", "Reinforcement Learning", "Computer Vision", "Latex",
-                "Image data Cleaning & Preprocessing",]
+    "Image Processing",]
 
-function Skills(){
+function Skills() {
 
     return (
         <div id="skills">
@@ -11,18 +11,18 @@ function Skills(){
             <section className="section--page">
 
                 <div id="wrapper--skills">
-                    
-                    {skills.map(skill =>{
+
+                    {skills.map(skill => {
 
                         return <div className="skill--card">
                             <span>{skill}</span>
-                                </div>
-                })}
+                        </div>
+                    })}
                 </div>
-                
+
 
             </section>
-            
+
         </div>
     )
 }
