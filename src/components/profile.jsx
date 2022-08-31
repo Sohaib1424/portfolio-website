@@ -13,7 +13,7 @@ function Profile(){
                     <img id="profile_pic" src={"./profile_pic1.jpg"} />
                     
                     <div>
-                        <h1 id="creator">Sohiab Moradi</h1>
+                        <h1 id="creator">Sohaib Moradi</h1>
                         <p id="bio">Computer Engineering undergraduate student at University of Tabriz <br />
                          Artificial Intelligence Enthusiast</p>
                         <p id="email"><AiOutlineMail/> sohaib1380moradi@gmail.com</p>
